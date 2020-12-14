@@ -1,0 +1,226 @@
+\title{Template báo cáo KHTN}
+\documentclass[12pt]{article}
+\usepackage[T5]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese,english]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{url}\usepackage[colorlinks,urlcolor=blue]{hyperref}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lipsum}
+\usepackage{indentfirst}
+\usepackage{array}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\begin{document}
+\begin{titlepage}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
+\center
+ 
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\LARGE Đại học Công nghệ thông tin}\\[2cm] % Name of your university/college
+\textsc{\Large Lớp SS004.L16.CLC}\\[1.5cm] % Major heading such as course name
+\textsc{\LARGE \color{red} Nhóm 13}\\[0.4cm]
+\textsc{\large Môn học: Kỹ năng nghề nghiệp }\\[0.5cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Hợp đồng thành lập nhóm}\\[0.1cm] % Title of your document
+\HRule \\[1.5cm]
+ 
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Thành viên:}\\
+Hoàng Nhật Tiến 19522335
+\\
+Mai Long Thành 19522232
+\\
+Nguyễn Thiện Sua 19522144
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Giảng viên:} \\
+TS. Nguyễn Văn Toàn % Supervisor's Name
+\end{flushright}
+\end{minipage}\\[2cm]
+\includegraphics{Untitled-2.jpg}\\[0.5cm]
+\vfill % Fill the rest of the page with whitespace
+\end{titlepage}
+\section{Thông tin nhóm}
+\begin{tabular}{|l|l|}
+\hline
+MSSV  & Họ tên  \\  \hline
+195221441  & Nguyễn Thiện Sua (NT)  \\  \hline
+19522232  & Mai Long Thành  \\  \hline
+19522335  & Hoàng Nhật Tiến  \\  \hline
+\end{tabular}
+\\
+ - \emph{\bfseries Bảng phân công:}\\
+\\
+\begin{tabular}{ |c|c| } 
+\hline
+Họ và Tên & Vai trò \\ \hline
+Nguyễn Thiện Sua & Xây dựng các hàm di chuyển, tăng điểm, đồ ăn, độ dài của con rắn. \\ \hline
+Mai Long Thành & Thiết kế, xây dựng khung trò chơi, khởi tạo con rắn. \\
+\hline
+Hoàng Nhật Tiến & Xây dựng các thiết lập như pause game, thoát game. \\
+\hline
+\end{tabular}
+\\
+\section{Các nguyên tắc làm việc nhóm}
+ \begin{itemize}
+     \item Đi họp đúng giờ, đi học đúng giờ.
+     \item Hoàn thành đầy đủ, đúng thời hạn các nhiệm vụ được nhóm trưởng phân công.
+     \item Nghiêm túc trong khi họp và khi làm đồ án với nhóm.
+     \item Lắng nghe phát biểu của các thành và tích cực phát biểu ý kiến cá nhân để hoàn thiện bản thân.
+     \item Khi hoàn thành nhiệm vụ của mình thì phải hỗ trợ các thành viên khác trong nhóm để đồ án có thể hoàn thành sớm nhất.
+     \item Có tinh thần trách nhiệm với nhóm, với tập thể.
+     \item Vắng/nghỉ phải báo cáo với nhóm trưởng trước 1 ngày.
+     \item Không nói tục, chửi thể, xúc phạm các thành viên khác trong nhóm (Trường hợp xúc phạm thành viên khác nếu gây hậu quả sẽ bị mời ra khỏi nhóm).
+     \item LƯU Ý: TẤT CẢ MỌI TRƯỜNG HỢP BẤT ĐỒNG TRONG NHÓM PHẢI ĐƯỢC BÁO CÁO CHO NHÓM TRƯỞNG.
+\end{itemize}
+\section{Kế hoạch họp nhóm}
+\begin{itemize}
+    \item Lịch họp của nhóm sẽ được các thành viên quyết định và phải được thông qua bởi Nhóm Trưởng.
+    \item Tần suất: ít nhất 2 lần / tuần.
+    \item Địa điểm: Trường ĐH Công Nghệ Thông Tin.
+    \item Thời gian: Thống nhất trước 2-3 ngày để các thành viên sắp xếp.
+    \item Thông báo qua Group Messenger trên Facebook.
+\end{itemize}
+\section{Quy tắc thưởng phạt}
+\begin{itemize}
+\item \textit{THƯỞNG :}
+\begin{itemize}
+    \item Hoàn thành tốt công việc, sớm hơn thời gian được giao, có những ý kiến mang tính sáng tạo, đột phá trong lúc làm đồ án.
+    \item Đi họp đúng giờ, tích cực hỗ trợ các thành viên khác. Sẽ được nhóm ghi nhận và khen thưởng.
+    \item Mỗi tuần sẽ chọn ra 1-2 người để khen thưởng.
+    \end{itemize}
+\item \textit{PHẠT :} 
+    \begin{itemize}
+    \item Đi họp trễ mỗi lần sẽ phải đóng phạt 10.000 - 30.000 (Tùy vào số lần, mức độ trễ), nếu vi phạm liên tục và bị nhắc nhở nhiều lần sẽ bị mời ra khỏi nhóm.
+    \item Vắng quá 2 buổi không có lí do.
+    \item Không hoàn thành nhiệm vụ được giao sẽ được gia hạn thêm 1 ngày, nếu vẫn tiếp tục không hoàn thành sẽ bị mời ra khỏi nhóm.
+    \item Xúc phạm thành viên khác bị tố cáo hay gây bất đồng với các thành viên khác sẽ bị cảnh cáo, nếu nặng sẽ bị mời ra khỏi nhóm.
+    \end{itemize}
+\end{itemize}
+    \section{Tính điểm nhóm.}
+Các thành viên sẽ BẮT BUỘC tự đánh giá bản thân và những thành viên khác trong quá trình làm rồi gửi riêng cho Nhóm trưởng. Nhóm trưởng sẽ có nhiệm vụ tổng kết, xác nhận và quyết định điểm của mỗi thành viên trong nhóm sau khi kết thúc đồ án.
+\begin{itemize}
+    \item Hoàn thành tốt công việc, đi họp đầy đủ, đúng giờ, tích cực phát biểu ý kiến, đóng góp vào đồ án, ngoài ra còn giúp đỡ các thành viên khác trong nhóm: A+ hoặc A.
+    \item Hoàn thành tốt công việc, đi họp đầy đủ, đúng giờ, có phát biểu trong những cuộc họp: B+ hoặc B.
+    \item Hoàn thành công việc nhưng còn bị nhắc nhở để làm, đi họp đầy đủ, đúng giờ, vi phạm 1-2 lần: C+ hoặc C.
+    \item Hoàn thành công việc nhưng quá thời hạn ban đầu nhưng vẫn đi họp đầy đủ, đúng giờ, vi phạm 3-4 lần: D+ hoặc D.
+    \item Bị mời ra khỏi nhóm: E
+\end{itemize}
+\section{Kết quả đánh giá.}
+\begin{tabular}{|>{\raggedright\arraybackslash}p{2cm}|>{\raggedright\arraybackslash}p{2cm}|>{\raggedright\arraybackslash}p{2cm}|>{\raggedright\arraybackslash}p{2cm}|>{\raggedright\arraybackslash}p{2cm}|>{\raggedright\arraybackslash}p{2cm}|}
+\hline
+Họ Tên  & Đi họp đầy đủ, đúng giờ & Thái độ trong lúc làm việc & Hoàn thành nhiệm vụ & Tính sáng tạo và đột phát & Tổng kết  \\
+\hline
+Nguyễn Thiện Sua  
+&
+A
+&
+A+
+&
+A+
+&
+A
+&
+A+
+\\  
+\hline
+Mai Long Thành  
+&
+A
+&
+A
+&
+A
+&
+A
+&
+A
+\\  
+\hline
+Hoàng Nhật Tiến  
+&
+A-
+&
+A
+&
+A-
+&
+B+
+&
+A-
+\\  
+\hline
+\end{tabular}
+\section{Chữ ký, ý kiến của từng thành viên.}
+\begin{tabular}{|>{\raggedright\arraybackslash}p{2cm}|>{\raggedright\arraybackslash}p{4cm}|>{\raggedright\arraybackslash}p{4cm}|}
+\hline
+Họ Tên  & Chữ ký & Ý kiến, nhận xét  \\
+\hline
+Nguyễn Thiện Sua
+&
+
+&
+
+\\  
+\hline
+Mai Long Thành  
+&
+
+&
+
+\\  
+\hline
+Hoàng Nhật Tiến 
+&
+
+&
+\\  
+\hline
+\end{tabular}
+\section{Giới thiệu về Game.}
+- Trò chơi con rắn cổ điển, chiều dài ban đầu là 4, khi ăn thức ăn chiều dài con rắn sẽ tăng thêm 1, với thức ăn đc xuất hiện ngẫu nhiên, khi càng nhiều điểm thì tốc độ con rắn càng nhanh, trò chơi sẽ kết thúc khi con rắn tự chạm vào thân hoặc chạm vào biên, trò chơi đc thiết kế với các chức năng cơ bản như Pause Game, Exit Game.
+\section{Các điểm mà nhóm SV tâm đắc nhất các kỹ năng được biết trong việc xây dựng trò chơi.}
+\begin{itemize}
+    \item Cách hoạt động nhóm để hoàn thành 1 đồ án môn học.
+    \item Ý thức, tinh thần tự giác khi làm việc với nhóm.
+    \item Tiến bộ hơn trong các kỹ năng mềm, cải thiện các kỹ năng lập trình khi trao đổi với các thành viên khác.
+    \item Học hỏi thêm được một số kỹ thuật trong việc lập trình Game như:
+    \begin{itemize}
+    \item Kiến thức trừu tượng hóa khi dùng kiến trúc điểm.
+    \item Cách thức di chuyển con rắn.
+    \item Cách thức xây dựng bố cục các hàm vẽ tường (Giới hạn khu vực chơi).
+    \end{itemize}
+\end{itemize}
+\section{Đánh giá về việc thực hiện hợp đồng nhóm.}
+\begin{itemize}
+    \item Các thành viên thực hiện tốt các nguyên tắc làm việc nhóm.
+    \item Không thành viên nào vi phạm trên 2 lần các nguyên tắc và để bị phạt.
+    \item Nhóm trưởng thường hay khen thưởng các thành viên trong nhóm, hỗ trợ các thành viên khác khi gặp khó khăn trong quá trình làm.
+    \item Cam kết rằng kết quả chấm điểm là hoàn toàn trung thực và được thông qua bởi Nhóm trưởng và các thành viên trong nhóm.
+    \item Cách tính điểm hợp lí, hiệu quả.
+\end{itemize}
+\end{document}
