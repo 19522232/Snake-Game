@@ -113,6 +113,7 @@ void Draw_Snake(Point Snake[])
 void Create_Snake(Point Snake[])
 {
     int x = 20, y = 13;
+    score = 0;
     for (int i = 0; i < Length_Init; i++)
     {
         Snake[i].x = x;
